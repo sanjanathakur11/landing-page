@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background: linear-gradient(to right, orange, rgb(231, 95, 222));
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.social-media img,
+.contact-info img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.book-appointment {
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.book-appointment img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: white;
+    color: linear-gradient(to right, orange, rgb(231, 95, 222));
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid orange;
+}
+
+.navbar .logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    margin-left: 20px;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.navbar .menu li a.buy-now {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-image: url('meeting.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(45, 44, 44);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* Services Section */
+
+.services {
+    background: linear-gradient(to right, orange, rgb(231, 95, 222));
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box {
+    max-width: 250px;
+}
+
+.service-box img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.service-box h3 {
+    margin-bottom: 5px;
+}
+
+
+/* About Us Section */
+
+.about-us {
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+    
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.readmore {
+    background: linear-gradient(to right, orange, rgb(231, 95, 222));
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #ff6b6b;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+}
+
+.service-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
